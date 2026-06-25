@@ -1,13 +1,16 @@
 # Student Performance Predictor
 Machine learning project to predict student performance using demographic and academic features.
 
+
 ## Overview
 The goal of this project is to predict a student's overall performance using demographic and academic attributes. The project demonstrates a complete machine learning workflow from exploratory data analysis to model evaluation. The output of this project is the predicted overall performance of a student based on demographic and academic attributes.
 
+
 ## Dataset
 This project uses the Student Performance in Exams dataset from Kaggle, which contains demographic and academic information for 1000 students.
-- Link: 
+- [Download Dataset](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?resource=download)
 - Shape: (1000, 8)
+
 
 ## Technologies Used
 - Python
@@ -19,6 +22,7 @@ This project uses the Student Performance in Exams dataset from Kaggle, which co
 - Joblib
 - Google Colab
 
+
 ## Workflow
 1. Problem Definition
 2. Data Acquisition
@@ -28,20 +32,36 @@ This project uses the Student Performance in Exams dataset from Kaggle, which co
 6. Feature Engineering
 7. Model Training
 8. Model Evaluation
+
    
 ## Models used
   - Linear Regression
   - Random Forest Regressor
-  
+
+
 ## Evaluation Metrics
   - MAE
   - RMSE
   - R2 Score
 
+
+## Results
+### Linear Regression
+
+- MAE: 10.49
+- RMSE: 13.40
+- R² Score: 0.16
+
+### Random Forest Regressor
+
+- R² Score: -0.02
+
+
 ## Key Findings
 - Reading and writing scores are highly correlated.
 - Students receiving standard lunch and completing the test preparation course generally performed better.
 - Linear Regression outperformed Random Forest Regressor on this dataset.
+
 
 ## Future Improvements
 - Collect additional features such as study hours, IQ, sleep duration and previous academic performance.
